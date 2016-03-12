@@ -1,0 +1,4 @@
+use default content export:
+  title: 'Use default content export'
+  description: 'Allows export content entities.'
+  restrict access: true
