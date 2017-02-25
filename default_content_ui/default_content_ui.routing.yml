@@ -1,0 +1,15 @@
+default_content_ui.overview:
+  path: 'admin/config/development/default_content'
+  defaults:
+    _controller: '\Drupal\default_content_ui\Controller\DefaultContent::overview'
+    _title: 'Default content'
+  requirements:
+    _permission: 'administer site configuration'
+
+default_content_ui.extension:
+  path: 'admin/config/development/default_content/{extension}'
+  defaults:
+    _controller: '\Drupal\default_content_ui\Controller\DefaultContent::getByExtension'
+    _title: 'Default content'
+  requirements:
+    _permission: 'administer site configuration'

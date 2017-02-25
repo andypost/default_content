@@ -1,0 +1,5 @@
+default_content_ui.overview:
+  title: 'Default content'
+  description: 'Manage shipped default content.'
+  route_name: default_content_ui.overview
+  parent: 'system.admin_config_development'
